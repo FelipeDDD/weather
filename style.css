@@ -1,0 +1,55 @@
+.centralizer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #b9b4b4;
+    padding: 30px 0 90px 0;
+    gap: 25px;
+    text-align: center;
+}
+h1 {
+    color: #fdce41;
+    font-size: 75px;
+}
+input {
+    text-align: center;
+    font-size: 25px;
+    padding:7px 0;
+    width: 482px;
+    border: 2px solid gray;
+}
+::placeholder {
+    opacity: 0.3;
+}
+#searchButton {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: rgb(48 53 60);
+    color: white;
+}
+.quadrado {
+    flex-direction: column;
+    border: 2px solid gray;
+    width: 482px;
+}
+#city {
+    border: 2px solid gray;
+    font-size: 35px;
+    padding: 10px 0;
+    width: 482px;
+    margin-bottom: -27px;
+    background-color: #c5c1c1;
+}
+#clear {
+    font-size: 30px;
+    padding: 10px 0px;
+}
+#weatherDiv {
+    font-size: 25px;
+    padding: 20px 0;
+}
