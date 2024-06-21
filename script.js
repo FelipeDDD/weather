@@ -1,15 +1,15 @@
 function getWeather(city) {
-     const url = `http://localhost:3000/locations/${city}`
-//   const url = `https://yahoo-weather5.p.rapidapi.com/weather?location=${city}&format=json&u=c`;
-//   const options = {
-//     method: "GET",
-//     headers: {
-//       "x-rapidapi-key": "f6aa5f2322mshfe15ec228adcb0ap16dc73jsn7ceb62b13bef",
-//       "x-rapidapi-host": "yahoo-weather5.p.rapidapi.com",
-//     },
-//   };
+    //  const url = `http://localhost:3000/locations/${city}`
+  const url = `https://yahoo-weather5.p.rapidapi.com/weather?location=${city}&format=json&u=c`;
+  const options = {
+    method: "GET",
+    headers: {
+      "x-rapidapi-key": "f6aa5f2322mshfe15ec228adcb0ap16dc73jsn7ceb62b13bef",
+      "x-rapidapi-host": "yahoo-weather5.p.rapidapi.com",
+    },
+  };
 
-  fetch(url)
+  fetch(url, options)
     .then((response) => response.json())
     .then((data) => weatherFunction(data))
     .catch((err) => console.error(err));
