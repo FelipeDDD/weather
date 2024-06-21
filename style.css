@@ -16,6 +16,10 @@ h1 {
     color: #fdce41;
     font-size: 75px;
 }
+h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
 input {
     text-align: center;
     font-size: 25px;
@@ -44,6 +48,7 @@ input {
     width: 482px;
     margin-bottom: -27px;
     background-color: #c5c1c1;
+    color: darkred;
 }
 #clear {
     font-size: 30px;
